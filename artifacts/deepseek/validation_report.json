@@ -1,0 +1,132 @@
+{
+  "checks": [
+    {
+      "question_id": "q1",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    },
+    {
+      "question_id": "q2",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    },
+    {
+      "question_id": "q3",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    },
+    {
+      "question_id": "q4",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    },
+    {
+      "question_id": "q5",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    },
+    {
+      "question_id": "q6",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    },
+    {
+      "question_id": "q7",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    },
+    {
+      "question_id": "q8",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    },
+    {
+      "question_id": "q9",
+      "valid": true,
+      "errors": [],
+      "generation_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "final_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "provider_error": null
+    }
+  ],
+  "all_valid": true,
+  "count": 9
+}

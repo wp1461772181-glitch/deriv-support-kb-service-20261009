@@ -1,0 +1,2 @@
+# Runtime: Python 3.10+ standard library only.
+# Development: python -m unittest discover -s tests

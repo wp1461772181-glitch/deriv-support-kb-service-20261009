@@ -1,0 +1,11 @@
+[
+  {"id":"q1","question":"How many password reset emails are allowed per hour?","expected_behavior":"answerable","expected_evidence":["three","one-hour"]},
+  {"id":"q2","question":"How many minutes do reset links expire after?","expected_behavior":"answerable","expected_evidence":["30 minutes"]},
+  {"id":"q3","question":"What is the standard API request limit per minute?","expected_behavior":"answerable","expected_evidence":["120 requests per minute"]},
+  {"id":"q4","question":"What documents are required for identity verification?","expected_behavior":"answerable","expected_evidence":["photo ID","selfie"]},
+  {"id":"q5","question":"How soon are approved withdrawals normally processed?","expected_behavior":"answerable","expected_evidence":["three business days"]},
+  {"id":"q6","question":"Who must support notify immediately about a suspected security incident?","expected_behavior":"answerable","expected_evidence":["on-call security team"]},
+  {"id":"q7","question":"Can VIP customers bypass identity verification?","expected_behavior":"unanswerable","expected_evidence":[]},
+  {"id":"q8","question":"What is the maximum withdrawal amount?","expected_behavior":"partial","expected_evidence":[]},
+  {"id":"q9","question":"Which country-specific identity documents are accepted in Singapore?","expected_behavior":"partial","expected_evidence":[]}
+]

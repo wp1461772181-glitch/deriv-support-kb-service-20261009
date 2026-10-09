@@ -1,0 +1,32 @@
+{
+  "reviewed_at_utc": "2026-10-09T12:26:52.966433+00:00",
+  "python": "3.12.13",
+  "unit_tests_passed": 9,
+  "offline_evaluation": {
+    "questions": 9,
+    "behavior_matches": 9,
+    "structural_checks_passed": 9
+  },
+  "deepseek_evaluation": {
+    "questions": 9,
+    "behavior_matches": 9,
+    "structural_checks_passed": 9,
+    "fallbacks": 0,
+    "provider_errors": 0
+  },
+  "novel_deepseek_checks": {
+    "passed": 3,
+    "total": 3,
+    "cases": [
+      "new answerable HTTP 429 question",
+      "unknown identity fee",
+      "partially supported documents plus fee"
+    ]
+  },
+  "root_artifacts_provider": "deepseek",
+  "key_in_repo": false,
+  "limitations": [
+    "Local lexical extraction can refuse paraphrases.",
+    "Deterministic quote/citation checks do not establish complete semantic entailment."
+  ]
+}

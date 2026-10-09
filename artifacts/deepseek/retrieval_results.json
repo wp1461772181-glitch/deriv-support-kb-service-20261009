@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "q1",
+    "retrieved_chunks": [
+      {
+        "doc_id": "account_access.md",
+        "chunk_id": "account_access_1",
+        "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+        "score": 6.842485
+      },
+      {
+        "doc_id": "api_limits.md",
+        "chunk_id": "api_limits_1",
+        "text": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user.",
+        "score": 2.314594
+      },
+      {
+        "doc_id": "withdrawals.md",
+        "chunk_id": "withdrawals_1",
+        "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+        "score": 1.511736
+      }
+    ]
+  },
+  {
+    "question_id": "q2",
+    "retrieved_chunks": [
+      {
+        "doc_id": "account_access.md",
+        "chunk_id": "account_access_1",
+        "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+        "score": 7.028633
+      },
+      {
+        "doc_id": "incident_escalation.md",
+        "chunk_id": "incident_escalation_1",
+        "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+        "score": 1.250592
+      },
+      {
+        "doc_id": "withdrawals.md",
+        "chunk_id": "withdrawals_1",
+        "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+        "score": 0.587769
+      },
+      {
+        "doc_id": "api_limits.md",
+        "chunk_id": "api_limits_1",
+        "text": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user.",
+        "score": 0.540722
+      }
+    ]
+  },
+  {
+    "question_id": "q3",
+    "retrieved_chunks": [
+      {
+        "doc_id": "api_limits.md",
+        "chunk_id": "api_limits_1",
+        "text": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user.",
+        "score": 10.93161
+      },
+      {
+        "doc_id": "account_access.md",
+        "chunk_id": "account_access_1",
+        "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+        "score": 1.539384
+      },
+      {
+        "doc_id": "identity_checks.md",
+        "chunk_id": "identity_checks_1",
+        "text": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days.",
+        "score": 0.167535
+      },
+      {
+        "doc_id": "incident_escalation.md",
+        "chunk_id": "incident_escalation_1",
+        "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+        "score": 0.160626
+      }
+    ]
+  },
+  {
+    "question_id": "q4",
+    "retrieved_chunks": [
+      {
+        "doc_id": "identity_checks.md",
+        "chunk_id": "identity_checks_1",
+        "text": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days.",
+        "score": 4.840262
+      },
+      {
+        "doc_id": "withdrawals.md",
+        "chunk_id": "withdrawals_1",
+        "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+        "score": 1.511736
+      },
+      {
+        "doc_id": "incident_escalation.md",
+        "chunk_id": "incident_escalation_1",
+        "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+        "score": 0.714607
+      },
+      {
+        "doc_id": "api_limits.md",
+        "chunk_id": "api_limits_1",
+        "text": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user.",
+        "score": 0.540722
+      }
+    ]
+  },
+  {
+    "question_id": "q5",
+    "retrieved_chunks": [
+      {
+        "doc_id": "withdrawals.md",
+        "chunk_id": "withdrawals_1",
+        "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+        "score": 7.001633
+      },
+      {
+        "doc_id": "incident_escalation.md",
+        "chunk_id": "incident_escalation_1",
+        "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+        "score": 0.78977
+      }
+    ]
+  },
+  {
+    "question_id": "q6",
+    "retrieved_chunks": [
+      {
+        "doc_id": "incident_escalation.md",
+        "chunk_id": "incident_escalation_1",
+        "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+        "score": 9.901119
+      },
+      {
+        "doc_id": "identity_checks.md",
+        "chunk_id": "identity_checks_1",
+        "text": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days.",
+        "score": 1.312151
+      },
+      {
+        "doc_id": "account_access.md",
+        "chunk_id": "account_access_1",
+        "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+        "score": 0.419324
+      },
+      {
+        "doc_id": "withdrawals.md",
+        "chunk_id": "withdrawals_1",
+        "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+        "score": 0.408598
+      }
+    ]
+  },
+  {
+    "question_id": "q7",
+    "retrieved_chunks": [
+      {
+        "doc_id": "identity_checks.md",
+        "chunk_id": "identity_checks_1",
+        "text": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days.",
+        "score": 4.588143
+      },
+      {
+        "doc_id": "account_access.md",
+        "chunk_id": "account_access_1",
+        "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+        "score": 1.561312
+      },
+      {
+        "doc_id": "withdrawals.md",
+        "chunk_id": "withdrawals_1",
+        "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+        "score": 1.268401
+      },
+      {
+        "doc_id": "incident_escalation.md",
+        "chunk_id": "incident_escalation_1",
+        "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+        "score": 0.381412
+      }
+    ]
+  },
+  {
+    "question_id": "q8",
+    "retrieved_chunks": [
+      {
+        "doc_id": "withdrawals.md",
+        "chunk_id": "withdrawals_1",
+        "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+        "score": 2.257224
+      },
+      {
+        "doc_id": "api_limits.md",
+        "chunk_id": "api_limits_1",
+        "text": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user.",
+        "score": 1.536009
+      },
+      {
+        "doc_id": "identity_checks.md",
+        "chunk_id": "identity_checks_1",
+        "text": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days.",
+        "score": 0.167535
+      },
+      {
+        "doc_id": "incident_escalation.md",
+        "chunk_id": "incident_escalation_1",
+        "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+        "score": 0.160626
+      }
+    ]
+  },
+  {
+    "question_id": "q9",
+    "retrieved_chunks": [
+      {
+        "doc_id": "withdrawals.md",
+        "chunk_id": "withdrawals_1",
+        "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+        "score": 2.099505
+      },
+      {
+        "doc_id": "identity_checks.md",
+        "chunk_id": "identity_checks_1",
+        "text": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days.",
+        "score": 1.984945
+      },
+      {
+        "doc_id": "account_access.md",
+        "chunk_id": "account_access_1",
+        "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+        "score": 0.549519
+      },
+      {
+        "doc_id": "api_limits.md",
+        "chunk_id": "api_limits_1",
+        "text": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user.",
+        "score": 0.540722
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "provider": "deepseek",
+  "requested_model": "deepseek-flash",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "evaluation_questions": 9,
+  "evaluation_completed": 0,
+  "requests_attempted": 2,
+  "novel_question_attempted": true,
+  "result": "worker_sandbox_network_blocked",
+  "safe_error": "DeepSeek request failed (URLError)",
+  "scope": "worker sandbox network attempt only",
+  "provider_outage_inferred": false,
+  "credential_value_logged_or_stored": false,
+  "offline_artifacts_preserved": true
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "check_id": "new_known",
+    "question": "What should a client do after receiving HTTP 429?",
+    "expected_supported": true,
+    "exit_code": 0,
+    "response": {
+      "question": "What should a client do after receiving HTTP 429?",
+      "supported": true,
+      "answer": "After receiving HTTP 429, which means the limit was exceeded, clients should wait for the Retry-After value before trying again.",
+      "citations": [
+        {
+          "doc_id": "api_limits.md",
+          "chunk_id": "api_limits_1",
+          "quote": "A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again."
+        }
+      ],
+      "provider": "deepseek",
+      "provider_error": null,
+      "fallback": null,
+      "retrieved_sources": [
+        {
+          "doc_id": "api_limits.md",
+          "chunk_id": "api_limits_1",
+          "text": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user.",
+          "score": 3.698081
+        },
+        {
+          "doc_id": "withdrawals.md",
+          "chunk_id": "withdrawals_1",
+          "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+          "score": 2.78785
+        },
+        {
+          "doc_id": "incident_escalation.md",
+          "chunk_id": "incident_escalation_1",
+          "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+          "score": 1.660879
+        },
+        {
+          "doc_id": "account_access.md",
+          "chunk_id": "account_access_1",
+          "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+          "score": 1.199997
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "api_limits.md",
+          "chunk_id": "api_limits_1",
+          "quote": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user."
+        },
+        {
+          "doc_id": "withdrawals.md",
+          "chunk_id": "withdrawals_1",
+          "quote": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting."
+        },
+        {
+          "doc_id": "incident_escalation.md",
+          "chunk_id": "incident_escalation_1",
+          "quote": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery."
+        },
+        {
+          "doc_id": "account_access.md",
+          "chunk_id": "account_access_1",
+          "quote": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock."
+        }
+      ],
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "generation_validation": {
+          "valid": true,
+          "errors": []
+        },
+        "final_validation": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    "passed": true
+  },
+  {
+    "check_id": "unknown_fee",
+    "question": "Does support charge a fee for identity verification?",
+    "expected_supported": false,
+    "exit_code": 0,
+    "response": {
+      "question": "Does support charge a fee for identity verification?",
+      "supported": false,
+      "answer": "The supplied evidence does not state whether support charges a fee for identity verification. Known: identity verification requires a government-issued photo ID and a live selfie, and the submitted legal name must match the name on the ID; if automated verification fails, customers should submit a clear image of the full document and contact support for manual review, with the review team aiming to respond within two business days. Unknown: any fee or charge associated with identity verification.",
+      "citations": [
+        {
+          "doc_id": "identity_checks.md",
+          "chunk_id": "identity_checks_1",
+          "quote": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days."
+        }
+      ],
+      "provider": "deepseek",
+      "provider_error": null,
+      "fallback": null,
+      "retrieved_sources": [
+        {
+          "doc_id": "identity_checks.md",
+          "chunk_id": "identity_checks_1",
+          "text": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days.",
+          "score": 5.274142
+        },
+        {
+          "doc_id": "incident_escalation.md",
+          "chunk_id": "incident_escalation_1",
+          "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+          "score": 1.246786
+        },
+        {
+          "doc_id": "api_limits.md",
+          "chunk_id": "api_limits_1",
+          "text": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user.",
+          "score": 0.628012
+        },
+        {
+          "doc_id": "account_access.md",
+          "chunk_id": "account_access_1",
+          "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+          "score": 0.419324
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "identity_checks.md",
+          "chunk_id": "identity_checks_1",
+          "quote": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days."
+        },
+        {
+          "doc_id": "incident_escalation.md",
+          "chunk_id": "incident_escalation_1",
+          "quote": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery."
+        },
+        {
+          "doc_id": "api_limits.md",
+          "chunk_id": "api_limits_1",
+          "quote": "# API usage limits\nStandard API credentials may make up to 120 requests per minute. A response with HTTP status 429 means the limit was exceeded; clients should wait for the Retry-After value before trying again.\nThe burst limit is 20 requests in any one-second window. Limits apply per API credential, not per end user."
+        },
+        {
+          "doc_id": "account_access.md",
+          "chunk_id": "account_access_1",
+          "quote": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock."
+        }
+      ],
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "generation_validation": {
+          "valid": true,
+          "errors": []
+        },
+        "final_validation": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    "passed": true
+  },
+  {
+    "check_id": "partial",
+    "question": "What documents are required for identity verification, and how much does it cost?",
+    "expected_supported": false,
+    "exit_code": 0,
+    "response": {
+      "question": "What documents are required for identity verification, and how much does it cost?",
+      "supported": false,
+      "answer": "The evidence establishes the documents required for identity verification: a government-issued photo ID and a live selfie, with the submitted legal name matching the name on the ID. However, the evidence does not state any cost or fee for identity verification. Therefore the cost portion of the request is not supported.",
+      "citations": [
+        {
+          "doc_id": "identity_checks.md",
+          "chunk_id": "identity_checks_1",
+          "quote": "Identity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID."
+        }
+      ],
+      "provider": "deepseek",
+      "provider_error": null,
+      "fallback": null,
+      "retrieved_sources": [
+        {
+          "doc_id": "identity_checks.md",
+          "chunk_id": "identity_checks_1",
+          "text": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days.",
+          "score": 5.612016
+        },
+        {
+          "doc_id": "incident_escalation.md",
+          "chunk_id": "incident_escalation_1",
+          "text": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery.",
+          "score": 1.56186
+        },
+        {
+          "doc_id": "withdrawals.md",
+          "chunk_id": "withdrawals_1",
+          "text": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting.",
+          "score": 1.511736
+        },
+        {
+          "doc_id": "account_access.md",
+          "chunk_id": "account_access_1",
+          "text": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock.",
+          "score": 0.780673
+        }
+      ],
+      "evidence": [
+        {
+          "doc_id": "identity_checks.md",
+          "chunk_id": "identity_checks_1",
+          "quote": "# Identity verification\nIdentity verification requires a government-issued photo ID and a live selfie. The submitted legal name must match the name shown on the ID.\nIf automated verification fails, customers should submit a clear image of the full document and contact support for manual review. The review team aims to respond within two business days."
+        },
+        {
+          "doc_id": "incident_escalation.md",
+          "chunk_id": "incident_escalation_1",
+          "quote": "# Incident escalation\nFor a suspected security incident, support must notify the on-call security team immediately and include the affected account, observed time, and a concise description. Do not ask customers to send passwords or one-time codes.\nFor a service outage affecting multiple customers, open a priority incident ticket and notify the service owner. Customer support should use the approved status-page update until the incident lead confirms recovery."
+        },
+        {
+          "doc_id": "withdrawals.md",
+          "chunk_id": "withdrawals_1",
+          "quote": "# Withdrawals\nApproved withdrawal requests are normally processed within three business days. Bank posting time after processing depends on the receiving bank.\nCustomers can check a withdrawal's status in the Payments page. Support cannot promise an exact arrival date because the receiving bank controls final posting."
+        },
+        {
+          "doc_id": "account_access.md",
+          "chunk_id": "account_access_1",
+          "quote": "# Account access\nCustomers can request at most three password reset emails within any one-hour period. Reset links expire after 30 minutes and can be used once.\nIf a customer cannot sign in after resetting a password, support should confirm the account email and check the service status page before escalating an account lock."
+        }
+      ],
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "generation_validation": {
+          "valid": true,
+          "errors": []
+        },
+        "final_validation": {
+          "valid": true,
+          "errors": []
+        }
+      }
+    },
+    "passed": true
+  }
+]
